@@ -19,7 +19,7 @@ import { ID } from "@vendure/core";
 import { parse } from "graphql";
 import { Observable, Subject, of } from "rxjs";
 import { distinctUntilChanged, switchMap, tap } from "rxjs/operators";
-import { NgSelectModule } from "@ng-select/ng-select";
+import { NgSelectModule } from "@vendure/admin-ui/node_modules/@ng-select/ng-select";
 
 type ProductSearch = {
   search: { items: { productId: ID; productName: string }[] };
